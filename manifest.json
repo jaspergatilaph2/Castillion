@@ -1,0 +1,15 @@
+{
+  "name": "Sweet Pearls App",
+  "short_name": "Sweet Pearls",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ff6347",
+  "icons": [
+    {
+      "src": "/images/icon64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    }
+  ]
+}

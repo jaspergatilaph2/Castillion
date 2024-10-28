@@ -1,0 +1,80 @@
+/* Reset and Basic Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+  color: #333;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  background-color: #ffe4b2;
+  padding: 30px 20px;
+  color: #8b4513;
+}
+
+.header h1 {
+  font-size: 3rem;
+}
+
+.header p {
+  font-size: 1.2rem;
+}
+
+/* Menu Section */
+.menu {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.menu h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #d2691e;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.menu-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.menu-item h3 {
+  font-size: 1.5rem;
+  color: #8b4513;
+  margin-bottom: 10px;
+}
+
+.menu-item p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.menu-item span {
+  font-size: 1.2rem;
+  color: #d2691e;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: #8b4513;
+  color: #fff;
+  padding: 20px;
+  margin-top: 40px;
+}
